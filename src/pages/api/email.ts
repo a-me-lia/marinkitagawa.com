@@ -38,7 +38,7 @@ function getRequestParams(email: any) {
 }
 
 
-export default async(
+var ping = async(
   req: NextApiRequest,
   res: NextApiResponse
 ) => {
@@ -67,3 +67,5 @@ export default async(
     // Report error to Sentry or whatever
 }
 }
+
+export default ping;

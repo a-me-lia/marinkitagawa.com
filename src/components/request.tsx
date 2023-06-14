@@ -1,9 +1,10 @@
-/* eslint-disable react/display-name */
+
 import { useState } from "react";
 import axios from "axios";
 
 
-export default () => {
+var APIRequest = () => {
+
   const [email, setEmail] = useState("");
   const [state, setState] = useState("IDLE");
   const [errorMessage, setErrorMessage] = useState(null);
@@ -14,7 +15,7 @@ export default () => {
     try {
       const response = await axios.post("/api/email", { email });
       setState("SUCCESS");
-    } catch (e) {
+    } catch (e: any) {
       setErrorMessage(e.response.data.error);
       setState("ERROR");
     }
@@ -64,3 +65,5 @@ export default () => {
     
   );
 };
+
+export default APIRequest;

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Request from './api/request'
+import Request from './request'
 
 const inter = Inter({ subsets: ['latin'] })
 

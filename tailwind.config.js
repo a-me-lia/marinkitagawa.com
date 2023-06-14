@@ -12,6 +12,19 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+
+      animation: {
+        fade: 'fadeOut 3s ease-in-out',
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.slate.600') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
+
     },
   },
   plugins: [],

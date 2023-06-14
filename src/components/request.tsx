@@ -41,7 +41,7 @@ var APIRequest = () => {
 
 
           <button
-          className={`ml-[-90px] rounded-full bg-slate-600  px-5 py-1  ${
+          className={`ml-[-90px] rounded-full bg-slate-600  px-5 py-1 hover:bg-slate-500 ${
             state === "LOADING" ? "button-gradient-loading" : ""
           }`}
           type="button"
@@ -53,10 +53,10 @@ var APIRequest = () => {
         </div>
 
         {state === "ERROR" && (
-        <p className="relative  w-1/2 mt-2 text-red-600">{errorMessage}</p>
+        <p className="relative  w-full mt-2 text-red-600">{errorMessage}</p>
       )}
       {state === "SUCCESS" && (
-        <p className="relative  w-1/2 mt-2 text-green-600">Success!</p>
+        <p className="relative  w-full mt-2 text-green-600">Success!</p>
       )}
 
     </div>

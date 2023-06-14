@@ -15,7 +15,7 @@ export default function Home() {
             {/* hi emiliaoo*/}
 
             <Image
-              src="/marin.png"
+              src="/images/marin.png"
               className="object-cover z-0 "
               fill
               alt="marin is the cutest!"
@@ -24,7 +24,7 @@ export default function Home() {
 
 
         <div>
-        <a className='text-4xl'>
+        <a className='text-4xl text-white'>
           Site in progress!
         </a>
         </div>

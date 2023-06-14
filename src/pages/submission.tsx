@@ -4,7 +4,7 @@ export default function Submission() {
       <a className="font-bold self">Sign up for updates</a>
       {/*<a className="absolute bottom-5 left-10 mt-[0.2rem] text-white/[0.5] z-50 hover:hidden">IMmari@nerv.company</a>*/}
 
-      <form action="results.html">
+      <form action="">
         <div className="flex flex-row w-min rounded-full border-slate-600 bg-white border-2  mt-2">
           <label className="absolute mt-[0.2rem] text-black/[0.5]  z-50 hover:hidden"></label>
           <input

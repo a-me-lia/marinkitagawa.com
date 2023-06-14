@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Submission from './submission'
+import Request from './api/request'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <div>
-        <Submission/>
+        <Request/>
         </div>
 
       </div>

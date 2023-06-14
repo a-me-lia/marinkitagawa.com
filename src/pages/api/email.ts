@@ -2,6 +2,9 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import axios from "axios";
 
+
+
+
 function getRequestParams(email: any) {
   // get env variables
   const API_KEY = process.env.MAILCHIMP_API_KEY;

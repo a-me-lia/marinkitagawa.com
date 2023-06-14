@@ -58,7 +58,7 @@ export default async(
     return res.status(201).json({ error: null });
   } catch (error) {
     return res.status(400).json({
-      error: `not working`,
+      error: `Server/other error!`,
     });
 
     // Report error to Sentry or whatever

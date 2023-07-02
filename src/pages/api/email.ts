@@ -12,7 +12,7 @@ function getRequestParams(email: any) {
   // mailchimp datacenter - mailchimp api keys always look like this:
   // fe4f064432e4684878063s83121e4971-us6
   // We need the us6 part
-  const DATACENTER = "us21";
+  const DATACENTER = " us21";
 
   const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 

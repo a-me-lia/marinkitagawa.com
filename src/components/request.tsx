@@ -24,7 +24,7 @@ var APIRequest = () => {
   return (
 
     <div className="flex flex-col items-center justify-between align-middle">
-     <a className="font-bold self text-white">Sign up for updates</a>
+     <a className="font-bold self text-slate-600">Sign up for updates</a>
       {/*<a className="absolute bottom-5 left-10 mt-[0.2rem] text-white/[0.5] z-50 hover:hidden">IMmari@nerv.company</a>*/}
 
       
